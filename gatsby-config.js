@@ -1,12 +1,11 @@
 module.exports = {
   siteMetadata: {
-    // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Gatsby`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Paradox Blogs`,
+    author: `Samarth Kulkarni`,
+    description: `A blog site for documenting my tech adventures while trying to help out people try and understand new(or old) stuff.`,
+    siteUrl: `https://paradoxblogs.netlify.com/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: `ItsAMeSamarth`,
     },
   },
   plugins: [
@@ -107,20 +106,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // edit below
         // trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Paradox Blogs`,
+        short_name: `ParadoxBlogs`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        // edit below
         icon: `content/assets/gatsby-icon.png`,
       },
     },

@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0643e551-0fef-4f57-9d3c-29d576f3e06c/deploy-status)](https://app.netlify.com/sites/gatsby-personal-starter-blog/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8b7de73-2dd4-4890-bc73-f02bcd53b742/deploy-status)](https://app.netlify.com/sites/paradox-blogs/deploys)
 
 ## 🚀 Paradox Blogs
 

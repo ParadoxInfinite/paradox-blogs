@@ -1,7 +1,7 @@
 ---
 title: Porting Kali Nethunter to your device - Part 1
 description: A comprehensive and up-to-date guide on building a kernel and porting Kali Nethunter for any device.
-date: "2021-10-02T17:25:35.564Z"
+date: "2021-10-03T00:07:47.304Z"
 ---
 
 **_NOTE:_** _Before you spend time reading through the following guide, check if your phone already has a port of Nethunter [here](https://www.kali.org/get-kali/#kali-mobile) or [here](https://stats.nethunter.com/)._

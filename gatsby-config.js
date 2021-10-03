@@ -4,7 +4,7 @@ module.exports = {
     author: `Samarth Kulkarni`,
     alias: `Paradox`,
     description: `A blog site for documenting my tech adventures while trying to help out people try and understand new(or old) stuff.`,
-    siteUrl: `https://paradoxblogs.netlify.com/`,
+    siteUrl: `https://paradox-blogs.netlify.app/`,
     social: {
       twitter: `ItsAMeSamarth`,
       github: `ParadoxInfinite`

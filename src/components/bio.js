@@ -7,38 +7,28 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 import styled from "styled-components"
 
-import { rhythm } from "../utils/typography"
 
 function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author, alias, social } = data.site.siteMetadata
+        const { github, twitter } = data.site.siteMetadata.iconStrings
         return (
           <Container>
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
-              {` `}
+              Written by <strong>{author}</strong> aka <strong>{alias}</strong>,
+              a cybersecurity enthusiast and a computer science nerd.
+              <br />
+              <a href={`https://github.com/${social.github}`}>
+                <img src={github} alt="GitHub" width="20" height="20" /> Find interesting code on my GitHub
+              </a>
+              <br />
               <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
+                <img src={twitter} alt="Twitter" width="20" height="20" /> Checkout my boring Twitter account
               </a>
             </p>
           </Container>
@@ -60,7 +50,13 @@ const bioQuery = graphql`
     site {
       siteMetadata {
         author
+        alias
         social {
+          twitter
+          github
+        }
+        iconStrings {
+          github
           twitter
         }
       }

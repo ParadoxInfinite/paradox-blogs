@@ -17,7 +17,7 @@ I've been very lazy to get to this blog over the last year and thought of updati
 > In no way the stocks mentioned or the strategies/methods mentioned in this post is supposed to be taken as legitimate financial advice. Use your own judgement for your own money pls, thanks.
 > This is because I am in loss since the Russia-Ukraine war started, so, not the guy you want financial advice from. (:
 
-I investing about a year ago, sometime in July/August of 2021. I've only invested in stocks listed in the Indian markets, NSE and BSE, and I've also recently tried out some options action. My main motivation to try options and become extremely curious about trading was this video I watched:
+I started investing about a year ago, sometime in July/August of 2021. I've only invested in stocks listed in the Indian markets, NSE and BSE, and I've also recently tried out some options action. My main motivation to try options and become extremely curious about trading was this video I watched:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEI60-FcrsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 So, after going through quite a bit of these meme videos, I grew more interested in knowing how to trade actively.
